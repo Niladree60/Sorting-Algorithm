@@ -2,7 +2,7 @@
 using namespace std;
 using ll = long long;
 
-void solve()
+void bubblesort()
 {
   ll n,k;
   cin >> n;
@@ -36,13 +36,8 @@ int main()
     #endif
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    /*ll tc;
-    cin >> tc;
-    while(tc--)
-    {
-      solve();  
-    }*/
-    solve();
+    
+    bubblesort();
     
     return 0;
 }
